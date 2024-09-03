@@ -1,7 +1,6 @@
 
 # React Practice Project
 
-Hello, I am Mahin Muntasir. 
 Welcome to my React practice project! This repository contains the code for my journey of learning and experimenting with React, one of the most popular JavaScript libraries for building user interfaces.
 
 ## About This Project
