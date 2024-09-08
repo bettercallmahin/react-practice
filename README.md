@@ -15,3 +15,6 @@ This project is a sandbox for me to practice React concepts, try out new ideas, 
 - **Hooks**: Using React Hooks like `useState` and `useEffect` for managing state and side effects.
 - **Component Lifecycle**: Learning how components are created, updated, and destroyed.
 - **React Router**: Implementing routing in a React application.
+
+
+Stay with me to see me growing.
