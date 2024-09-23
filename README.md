@@ -1,13 +1,18 @@
-##Day-1 23/9/24
-#inline css
-create object
-add object as style in any tag
-or directly add style with curly braces in any tag
+# React.js Learning Progress
 
-#css stylesheet
-step-1: link stylesheet to index.html
-step-2: to add style to tag add className
+## Day 1: 23/9/24
 
-#create file in src
-step-1: create index.css in src
-step-2: import '/.index.css'
+### Inline CSS
+1. **Create an Object**: Define a style object in JavaScript.
+2. **Add Object as Style**: Use the created object as a style in any tag.
+3. **Directly Add Style**: You can also directly add styles using curly braces in any tag.
+
+### CSS Stylesheet
+1. **Step 1**: Link the stylesheet in `index.html`.
+2. **Step 2**: To add style to a tag, use `className`.
+
+### Create File in `src`
+1. **Step 1**: Create `index.css` in the `src` folder.
+2. **Step 2**: Import the stylesheet in your JavaScript file using:
+   ```javascript
+   import './index.css';
