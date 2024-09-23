@@ -10,22 +10,22 @@ const yearName = date.getFullYear();
 
 //css inline styling
 
-const h1Style = {
+// const h1Style = {
 
-  fontFamily: "poppins",
-  fontSize: "36px",
-  backgroundColor: "cyan",
-  padding: "10px",
-  borderRadius: "10px",
-  textAlign: "center"
+//   fontFamily: "poppins",
+//   fontSize: "36px",
+//   backgroundColor: "cyan",
+//   padding: "10px",
+//   borderRadius: "10px",
+//   textAlign: "center"
 
-}
+// }
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-    <h1 style={h1Style}>TODO App</h1>
+    <h1 className="h1style largeText">TODO App</h1>
     <h2>{firstName} {lastName}</h2>
     <p>
       This is a To-Do App
