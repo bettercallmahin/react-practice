@@ -23,17 +23,25 @@ const yearName = date.getFullYear();
 // }
 
 
+//component creation
+function Card() {
+  return <div className='card'>
+    <h2 className='h2style'>{firstName} {lastName}</h2>
+    <p className='pstyle'>
+      This is a To-Do App
+    </p>
+    <p className='pstyle'>Today is: {dateName}/{monthName + 1}/{yearName}</p>
+  </div>
+}
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
     <h1 className="h1style largeText">TODO App</h1>
-    <div className='card'>
-      <h2 className='h2style'>{firstName} {lastName}</h2>
-      <p className='pstyle'>
-        This is a To-Do App
-      </p>
-      <p className='pstyle'>Today is: {dateName}/{monthName + 1}/{yearName}</p>
-    </div>
+    <Card /> {/* Card call */}
+    <Card /> {/* Card call */}
+    <Card /> {/* Card call */}
 
   </div>
 

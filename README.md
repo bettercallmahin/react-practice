@@ -16,3 +16,7 @@
 2. **Step 2**: Import the stylesheet in your JavaScript file using:
    ```javascript
    import './index.css';
+
+   ##Day 2; 25/9/24
+   added classes
+   component (try to use capital letter first of component name)
