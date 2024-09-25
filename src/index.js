@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// import './index.css';
 
 const firstName = 'Mahin';
 const lastName = 'Muntasir';
@@ -27,11 +27,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
     <h1 className="h1style largeText">TODO App</h1>
-    <h2>{firstName} {lastName}</h2>
-    <p>
-      This is a To-Do App
-    </p>
-    <p>Today is: {dateName}/{monthName + 1}/{yearName}</p>
+    <div className='card'>
+      <h2 className='h2style'>{firstName} {lastName}</h2>
+      <p className='pstyle'>
+        This is a To-Do App
+      </p>
+      <p className='pstyle'>Today is: {dateName}/{monthName + 1}/{yearName}</p>
+    </div>
 
   </div>
 
