@@ -10,10 +10,9 @@ function App() {
             </div>
 
             <div className="card-holder">
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                <Card title="Item 1" desc="this is description 1"/> {/*Parent props*/}
+                <Card title="Item 2" desc="this is description 2"/> {/*Parent props*/}
+                <Card title="Item 3" desc="this is description 3"/> {/*Parent props*/}
             </div>
         </div>
     )
