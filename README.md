@@ -1,26 +1,62 @@
 # React.js Learning Progress
 
+This repository tracks my learning journey as I dive deeper into React.js. Below are the key concepts I've covered and the projects I've built along the way.
+
+---
+
 ## Day 1: 23/9/24
 
 ### Inline CSS
-1. **Create an Object**: Define a style object in JavaScript.
-2. **Add Object as Style**: Use the created object as a style in any tag.
-3. **Directly Add Style**: You can also directly add styles using curly braces in any tag.
+- **Create an Object**: Learned to define a style object in JavaScript.
+- **Add Object as Style**: Applied the created object as an inline style to HTML tags.
+- **Directly Add Style**: Used inline styles directly within JSX using curly braces.
 
 ### CSS Stylesheet
-1. **Step 1**: Link the stylesheet in `index.html`.
-2. **Step 2**: To add style to a tag, use `className`.
+- **Step 1**: Linked the stylesheet in `index.html`.
+- **Step 2**: Used `className` to add styles to elements.
 
-### Create File in `src`
-1. **Step 1**: Create `index.css` in the `src` folder.
-2. **Step 2**: Import the stylesheet in your JavaScript file using:
-   ```javascript
-   import './index.css';
+### Create `index.css` in `src`
+- **Step 1**: Created `index.css` in the `src` folder.
+- **Step 2**: Imported the stylesheet using:
+  ```javascript
+  import './index.css';
+  ```
 
-   ##Day 2; 25/9/24
-   added classes
-   component (try to use capital letter first of component name)
-   created component in index.js
-   created component in src folder file name Card.js
-   expport froim Card
-   import in index.js
+---
+
+## Day 2: 25/9/24
+
+### Components
+- **Adding Classes**: Used `className` to style components.
+- **Naming Convention**: Followed the convention of capitalizing the first letter of component names.
+- **Component Creation**: 
+  - Created components internally in `index.js`.
+  - Created external components in the `src` folder (`Card.js`).
+- **Import/Export**: 
+  - Exported components from `Card.js`.
+  - Imported them into `index.js`.
+  
+---
+
+## Day 3: 30/9/24
+
+### Props
+- **Props**: Passed data using props to make components reusable. 
+
+---
+
+## How to Run the Project
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/react-learning-progress.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the app:
+   ```bash
+   npm start
+   ```
+
+---
