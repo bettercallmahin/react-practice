@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./components/Card";
+import Data from "./data.json"
 
 function App() {
     return (
@@ -10,9 +11,9 @@ function App() {
             </div>
 
             <div className="card-holder">
-                <Card title="Item 1" desc="this is description 1"/>
-                <Card title="Item 2" desc="this is description 2"/> 
-                <Card title="Item 3" desc="this is description 3"/> 
+                <Card title={Data[0].title} desc={Data[0].description}/>
+                <Card title={Data[1].title} desc={Data[1].description}/> 
+                <Card title={Data[2].title} desc={Data[2].description}/> 
             </div>
         </div>
     )
