@@ -43,6 +43,12 @@ This repository tracks my learning journey as I dive deeper into React.js. Below
 ### Props
 - **Props**: Passed data using props to make components reusable. 
 
+## Destruction
+- Destructuring in React allows you to extract properties from the props object directly into variables, making your code cleaner and more readable. Instead of repeatedly using props to access each property, you can destructure them at the beginning of your component.
+
+##Creating Data in JSON
+- create a json object
+
 ---
 
 ## How to Run the Project

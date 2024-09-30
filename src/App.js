@@ -1,7 +1,16 @@
 import React from "react";
 import Card from "./components/Card";
+import Data from "./data.json"
 
 function App() {
+
+    let items = [];
+    for (let i = 0; i < Data.length; i++) {
+        items.push(
+            <Card title={Data[i].title} desc={Data[i].description} />
+        )
+    }
+
     return (
         <div className="container">
 
@@ -10,10 +19,9 @@ function App() {
             </div>
 
             <div className="card-holder">
-                <Card title="Item 1" desc="this is description 1"/> {/*Parent props*/}
-                <Card title="Item 2" desc="this is description 2"/> {/*Parent props*/}
-                <Card title="Item 3" desc="this is description 3"/> {/*Parent props*/}
+                {items}
             </div>
+
         </div>
     )
 }

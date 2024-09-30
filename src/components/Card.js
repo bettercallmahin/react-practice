@@ -1,14 +1,15 @@
 
 //child component - recieves props
 function Card(props) {
+    const {title, desc} = props; //destructuring
     return (
         <div className='card'>
             <div className="title">
-                <h2>{props.title}</h2>
+                <h2>{title}</h2>
             </div>
             <div className="details">
                 <p>
-                    {props.desc}
+                    {desc}
                 </p>
             </div>
             <div className="buy">
