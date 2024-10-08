@@ -49,6 +49,10 @@ This repository tracks my learning journey as I dive deeper into React.js. Below
 ##Creating Data in JSON
 - create a json object
 
+##Mappping data
+##Mapping data with unique ID how to genrate unique id
+
+
 ---
 
 ## How to Run the Project
