@@ -3,15 +3,19 @@ import Card from "./components/Card";
 import Data from "./data.json"
 
 function App() {
+
+    const items = [];
+
+    for (let i = 0; i < Data.length; i++) {
+        items.push(<Card title={Data[i].title} desc={Data[i].description}/>)
+    }
+
     return (
         <div className="container">
 
             <h1>Hello</h1>
-            <Card title={Data[0].title} desc={Data[0].description} />
-            <Card title={Data[1].title} desc={Data[1].description} />
-            <Card title={Data[2].title} desc={Data[2].description} />
-            <Card title={Data[3].title} desc={Data[3].description} />
-            
+            {items}
+
         </div>
     )
 }
