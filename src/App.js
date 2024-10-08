@@ -3,14 +3,6 @@ import Card from "./components/Card";
 import Data from "./data.json"
 
 function App() {
-
-    let items = [];
-    for (let i = 0; i < Data.length; i++) {
-        items.push(
-            <Card title={Data[i].title} desc={Data[i].description} />
-        )
-    }
-
     return (
         <div className="container">
 
@@ -19,7 +11,7 @@ function App() {
             </div>
 
             <div className="card-holder">
-                {items}
+            {Data.map((item) => <Card  title={item.title} desc = {item.desc}/>)}
             </div>
 
         </div>
