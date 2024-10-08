@@ -14,7 +14,18 @@ function App() {
         <div className="container">
 
             <h1>Hello</h1>
-            {items}
+
+            {Data.map((item, index) => (
+                <Card
+                
+                    key={index}
+                    title={item.title}
+                    desc={item.description}
+                
+                />
+            )
+            )}
+           
 
         </div>
     )
