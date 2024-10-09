@@ -58,7 +58,7 @@ This repository tracks my learning journey as I dive deeper into React.js. Below
 ## How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/react-learning-progress.git
+   git clone https://github.com/bettercallmahin/react-pratice.git
    ```
 2. Install dependencies:
    ```bash
