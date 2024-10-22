@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 function App() {
     return (
-        <div>
+        <div className="container">
             <h1>List of Items</h1> {/* Main heading of the app */}
             {/* Pass Data as a prop to the List component */}
             <List data={Data} /> 
