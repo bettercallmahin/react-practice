@@ -1,6 +1,7 @@
 import React from "react"; // Import React library
 import List from "./components/UniqueList/List.js"; // Import the List component
 import Data from './data.json'; // Import the data from JSON file
+import { v4 as uuidv4 } from 'uuid';
 
 function App() {
     return (

@@ -51,6 +51,7 @@ This repository tracks my learning journey as I dive deeper into React.js. Below
 
 ##Mappping data
 ##Mapping data with unique ID how to genrate unique id
+- npm install uuid
 
 
 ---
