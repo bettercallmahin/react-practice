@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid'; // Import uuid for generating unique keys
 // Define List component that receives data as a prop
 const List = ({ data }) => {
     return (
-        <div>
+        <div className='card-holder'>
             {/* Map over the data array to render each item */}
             {data.map((item) => {
 
@@ -18,9 +18,10 @@ const List = ({ data }) => {
                 const { title, description } = item;
 
                 return (
-                    <div key={uuidv4()}> {/* Use a unique key for each item */}
+                    <div key={uuidv4()} className="card"> {/* Use a unique key for each item */}
                         <h3>{title}</h3> {/* Display the title of the item */}
                         <p>{description}</p> {/* Display the description of the item */}
+                        <button className="btn">Action</button>
                     </div>
                 );
             })}
