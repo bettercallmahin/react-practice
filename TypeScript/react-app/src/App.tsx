@@ -1,9 +1,9 @@
-import Message from "./Message";
+import ListGroup from "./components/ListGroup"; 
 //PascalCasing
 function App() {
   return (
     //JSX: javaScript XML
-    <div><Message /></div>
+    <div><ListGroup/></div>
   );
 }
 
